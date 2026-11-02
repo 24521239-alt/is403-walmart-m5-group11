@@ -1,0 +1,44 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local files and credentials
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+kaggle.json
+
+# Datasets and forecasts
+/02_Data/raw/*
+!/02_Data/raw/keep.txt
+/02_Data/processed/*
+!/02_Data/processed/keep.txt
+/02_Data/predictions/*
+!/02_Data/predictions/keep.txt
+
+# Trained models and archives
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.zip
+
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.fdb_latexmk
+*.fls
+*.synctex.gz
