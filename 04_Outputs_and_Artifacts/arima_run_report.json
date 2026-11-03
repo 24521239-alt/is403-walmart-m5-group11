@@ -1,0 +1,196 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-11-03T13:34:24.549939+00:00",
+  "python": "3.13.18",
+  "random_seed": 42,
+  "packages": {
+    "numpy": "2.1.3",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.0",
+    "statsmodels": "0.15.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "files_read": [
+    "train.csv",
+    "val.csv"
+  ],
+  "test_labels_read": false,
+  "test_forecasts_computed": false,
+  "forecast_horizon": 28,
+  "data_fingerprints": {
+    "train.csv": "dcb9407590b16f6b975a1647c1c20f3cb932bc78dd75c1637f94d313c599d271",
+    "val.csv": "fbee2683fca3c5fc731b1d81829a56aa12c71e5b70ad124a1ac01ab3754536b5"
+  },
+  "origins": [
+    1829,
+    1857,
+    1885
+  ],
+  "fold_plan": [
+    {
+      "fold": 1,
+      "origin_day": "d_1829",
+      "origin_date": "2016-01-31",
+      "history_rows": 1829,
+      "forecast_start": "2016-02-01",
+      "forecast_end": "2016-02-28"
+    },
+    {
+      "fold": 2,
+      "origin_day": "d_1857",
+      "origin_date": "2016-02-28",
+      "history_rows": 1857,
+      "forecast_start": "2016-02-29",
+      "forecast_end": "2016-03-27"
+    },
+    {
+      "fold": 3,
+      "origin_day": "d_1885",
+      "origin_date": "2016-03-27",
+      "history_rows": 1885,
+      "forecast_start": "2016-03-28",
+      "forecast_end": "2016-04-24"
+    }
+  ],
+  "candidate_count": 64,
+  "eligible_candidate_count": 64,
+  "excluded_candidate_count": 0,
+  "explicit_p7_arima_candidates": 6,
+  "candidate_selection": "Validation RMSSE; then parameter count and config_id",
+  "information_criteria_comparison": "Within fixed family and differencing pair (d,D)",
+  "target_divisor": 1000.0,
+  "optimizer": "L-BFGS",
+  "optimizer_iteration_limits": [
+    200,
+    400
+  ],
+  "numerical_library_threads": 1,
+  "selected_candidates": [
+    {
+      "family": "ARIMA",
+      "config_id": "arima_7_1_2_t",
+      "p": 7,
+      "d": 1,
+      "q": 2,
+      "P": 0,
+      "D": 0,
+      "Q": 0,
+      "s": 0,
+      "trend": "t"
+    },
+    {
+      "family": "SARIMA",
+      "config_id": "sarima_1_1_1_1_1_1_7_n",
+      "p": 1,
+      "d": 1,
+      "q": 1,
+      "P": 1,
+      "D": 1,
+      "Q": 1,
+      "s": 7,
+      "trend": "n"
+    }
+  ],
+  "selected_candidate_diagnostics": {
+    "ARIMA": {
+      "burn_in": 28,
+      "observations": 1857,
+      "model_df": 9,
+      "any_ljung_box_rejection": true
+    },
+    "SARIMA": {
+      "burn_in": 28,
+      "observations": 1857,
+      "model_df": 4,
+      "any_ljung_box_rejection": true
+    }
+  },
+  "comparison_summary": [
+    {
+      "model": "SARIMA",
+      "config_id": "sarima_1_1_1_1_1_1_7_n",
+      "mean_rmsse": 0.6030165797080987,
+      "std_rmsse": 0.17068577250660658,
+      "mean_mae": 2770.329632647428,
+      "mean_rmse": 3553.286254236711,
+      "folds": 3,
+      "validation_rmsse": 0.4873355233320843,
+      "validation_mae": 2274.1692012528174,
+      "validation_rmse": 2881.244280423603
+    },
+    {
+      "model": "ARIMA",
+      "config_id": "arima_7_1_2_t",
+      "mean_rmsse": 0.6039649054340389,
+      "std_rmsse": 0.01696361027457104,
+      "mean_mae": 2830.431755449064,
+      "mean_rmse": 3560.395205454057,
+      "folds": 3,
+      "validation_rmsse": 0.5982031963934157,
+      "validation_mae": 2699.662774446076,
+      "validation_rmse": 3536.7205049100367
+    },
+    {
+      "model": "Seasonal Naive 7",
+      "config_id": "seasonal_naive_7",
+      "mean_rmsse": 0.7518889268287978,
+      "std_rmsse": 0.15418122959235528,
+      "mean_mae": 3653.5833333333335,
+      "mean_rmse": 4431.204049202724,
+      "folds": 3,
+      "validation_rmsse": 0.667678997574433,
+      "validation_mae": 3231.1428571428573,
+      "validation_rmse": 3947.4780737652163
+    },
+    {
+      "model": "SMA-28",
+      "config_id": "moving_average_28",
+      "mean_rmsse": 1.1642656303046077,
+      "std_rmsse": 0.06032773804889868,
+      "mean_mae": 5586.308673469387,
+      "mean_rmse": 6863.689282761031,
+      "folds": 3,
+      "validation_rmsse": 1.200108159846032,
+      "validation_mae": 5959.227040816327,
+      "validation_rmse": 7095.326742864644
+    },
+    {
+      "model": "SMA-7",
+      "config_id": "moving_average_7",
+      "mean_rmsse": 1.2238115674010517,
+      "std_rmsse": 0.05328223792265077,
+      "mean_mae": 5483.297619047618,
+      "mean_rmse": 7214.354871453616,
+      "folds": 3,
+      "validation_rmsse": 1.2164900329969195,
+      "validation_mae": 5810.132653061225,
+      "validation_rmse": 7192.180298697996
+    },
+    {
+      "model": "Naive",
+      "config_id": "naive",
+      "mean_rmsse": 1.7026938293883538,
+      "std_rmsse": 0.2758101505242886,
+      "mean_mae": 8914.011904761905,
+      "mean_rmse": 10035.11712014372,
+      "folds": 3,
+      "validation_rmsse": 1.3842651329036886,
+      "validation_mae": 7457.071428571428,
+      "validation_rmse": 8184.1068541411405
+    }
+  ],
+  "cv_score_records": 18,
+  "forecast_records": 504,
+  "clipped_forecasts": 0,
+  "clipped_fraction": 0.0,
+  "limitations": [
+    "Candidate grids are bounded rather than exhaustive.",
+    "Model selection and stability summaries share the Validation window.",
+    "Three nearby development windows do not cover all annual seasons.",
+    "Information criteria across different differencing orders are not ranked together.",
+    "Residual diagnostics can flag inadequacy despite a numerically completed run.",
+    "No independent Test performance is reported."
+  ],
+  "run_seconds_before_packaging": 113.88874481999994
+}

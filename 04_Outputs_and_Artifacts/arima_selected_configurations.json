@@ -1,0 +1,39 @@
+{
+  "selection_metric": "Validation RMSSE",
+  "tie_breakers": [
+    "parameter_count",
+    "config_id"
+  ],
+  "selection_origin": 1885,
+  "forecast_horizon": 28,
+  "target_divisor": 1000.0,
+  "enforce_stationarity": true,
+  "enforce_invertibility": true,
+  "selected_candidates": [
+    {
+      "family": "ARIMA",
+      "config_id": "arima_7_1_2_t",
+      "p": 7,
+      "d": 1,
+      "q": 2,
+      "P": 0,
+      "D": 0,
+      "Q": 0,
+      "s": 0,
+      "trend": "t"
+    },
+    {
+      "family": "SARIMA",
+      "config_id": "sarima_1_1_1_1_1_1_7_n",
+      "p": 1,
+      "d": 1,
+      "q": 1,
+      "P": 1,
+      "D": 1,
+      "Q": 1,
+      "s": 7,
+      "trend": "n"
+    }
+  ],
+  "test_labels_read": false
+}

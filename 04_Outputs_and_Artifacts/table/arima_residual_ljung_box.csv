@@ -1,0 +1,7 @@
+family,config_id,lag,model_df,discarded_start_rows,innovation_rows,lb_stat,lb_pvalue,reject_no_autocorrelation
+ARIMA,arima_7_1_2_t,14,9,28,1857,172.129376358,2.5628849709e-35,True
+ARIMA,arima_7_1_2_t,21,9,28,1857,282.575227207,2.12051233339e-53,True
+ARIMA,arima_7_1_2_t,28,9,28,1857,402.132021958,1.57967268283e-73,True
+SARIMA,sarima_1_1_1_1_1_1_7_n,14,4,28,1857,76.3000669575,2.65536594509e-12,True
+SARIMA,sarima_1_1_1_1_1_1_7_n,21,4,28,1857,166.245174315,1.55428994128e-26,True
+SARIMA,sarima_1_1_1_1_1_1_7_n,28,4,28,1857,249.416300516,2.1546008128e-39,True
