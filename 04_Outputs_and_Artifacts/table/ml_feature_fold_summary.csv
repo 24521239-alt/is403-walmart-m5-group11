@@ -1,0 +1,4 @@
+fold,origin_day,training_rows,training_first_day,training_last_day,forecast_rows,forecast_first_day,forecast_last_day,lags_features,calendar_event_features,full_features,unseen_event_count,scaler_fit_rows
+1,1829,1746,84,1829,28,1830,1857,10,48,51,0,1746
+2,1857,1774,84,1857,28,1858,1885,10,48,51,0,1774
+3,1885,1802,84,1885,28,1886,1913,10,48,51,0,1802

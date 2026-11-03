@@ -1,0 +1,154 @@
+fold,feature,family,event_name,minimum_sales_offset,maximum_sales_offset,training_mean,training_scale,in_lags,in_lags_calendar_events,in_lags_calendar_events_snap
+1,lag_28,historical_sales,,28,28,34165.475945017184,7059.023414274929,True,True,True
+1,lag_35,historical_sales,,35,35,34111.06758304696,7082.58324817778,True,True,True
+1,lag_42,historical_sales,,42,42,34089.20733104238,7055.564849731479,True,True,True
+1,lag_56,historical_sales,,56,56,33990.02176403207,7090.110357177841,True,True,True
+1,rolling_mean_7_shift_28,historical_sales,,28,34,34132.81165112093,4590.26301539907,True,True,True
+1,rolling_std_7_shift_28,historical_sales,,28,34,5158.911042687111,1526.0124677148406,True,True,True
+1,rolling_mean_28_shift_28,historical_sales,,28,55,34077.89457535592,4230.362365147322,True,True,True
+1,rolling_std_28_shift_28,historical_sales,,28,55,5572.471928068932,1020.3100363949611,True,True,True
+1,rolling_mean_56_shift_28,historical_sales,,28,83,33988.08058214695,4242.596038667407,True,True,True
+1,rolling_std_56_shift_28,historical_sales,,28,83,5611.197129574458,914.9208887876481,True,True,True
+1,weekday_2,calendar,,,,0.14261168384879724,0.3496764096684418,False,True,True
+1,weekday_3,calendar,,,,0.14261168384879724,0.3496764096684418,False,True,True
+1,weekday_4,calendar,,,,0.14261168384879724,0.3496764096684418,False,True,True
+1,weekday_5,calendar,,,,0.143184421534937,0.3502608213383856,False,True,True
+1,weekday_6,calendar,,,,0.143184421534937,0.3502608213383856,False,True,True
+1,weekday_7,calendar,,,,0.143184421534937,0.3502608213383856,False,True,True
+1,month_sin,calendar,,,,-0.03876662856785406,0.7013634329781316,False,True,True
+1,month_cos,calendar,,,,-0.027229633413530532,0.7112278330146802,False,True,True
+1,event_00,event,Chanukah End,,,0.0028636884306987398,0.0534367637424896,False,True,True
+1,event_01,event,Christmas,,,0.0028636884306987398,0.05343676374248961,False,True,True
+1,event_02,event,Cinco De Mayo,,,0.0028636884306987398,0.05343676374248965,False,True,True
+1,event_03,event,ColumbusDay,,,0.0028636884306987398,0.053436763742489624,False,True,True
+1,event_04,event,Easter,,,0.0028636884306987398,0.05343676374248965,False,True,True
+1,event_05,event,Eid al-Fitr,,,0.0028636884306987398,0.05343676374248963,False,True,True
+1,event_06,event,EidAlAdha,,,0.0028636884306987398,0.05343676374248962,False,True,True
+1,event_07,event,Father's day,,,0.0028636884306987398,0.053436763742489644,False,True,True
+1,event_08,event,Halloween,,,0.0028636884306987398,0.05343676374248962,False,True,True
+1,event_09,event,IndependenceDay,,,0.0028636884306987398,0.05343676374248964,False,True,True
+1,event_10,event,LaborDay,,,0.0028636884306987398,0.05343676374248963,False,True,True
+1,event_11,event,LentStart,,,0.002290950744558992,0.047809018911131713,False,True,True
+1,event_12,event,LentWeek2,,,0.002290950744558992,0.04780901891113172,False,True,True
+1,event_13,event,MartinLutherKingDay,,,0.0028636884306987398,0.0534367637424896,False,True,True
+1,event_14,event,MemorialDay,,,0.0028636884306987398,0.05343676374248965,False,True,True
+1,event_15,event,Mother's day,,,0.0028636884306987398,0.05343676374248965,False,True,True
+1,event_16,event,NBAFinalsEnd,,,0.0028636884306987398,0.053436763742489644,False,True,True
+1,event_17,event,NBAFinalsStart,,,0.0028636884306987398,0.05343676374248965,False,True,True
+1,event_18,event,NewYear,,,0.0028636884306987398,0.0534367637424896,False,True,True
+1,event_19,event,OrthodoxChristmas,,,0.0028636884306987398,0.0534367637424896,False,True,True
+1,event_20,event,OrthodoxEaster,,,0.0028636884306987398,0.05343676374248965,False,True,True
+1,event_21,event,Pesach End,,,0.0028636884306987398,0.05343676374248965,False,True,True
+1,event_22,event,PresidentsDay,,,0.002290950744558992,0.04780901891113172,False,True,True
+1,event_23,event,Purim End,,,0.002290950744558992,0.04780901891113172,False,True,True
+1,event_24,event,Ramadan starts,,,0.0028636884306987398,0.05343676374248963,False,True,True
+1,event_25,event,StPatricksDay,,,0.002290950744558992,0.047809018911131734,False,True,True
+1,event_26,event,SuperBowl,,,0.002290950744558992,0.04780901891113171,False,True,True
+1,event_27,event,Thanksgiving,,,0.0028636884306987398,0.05343676374248962,False,True,True
+1,event_28,event,ValentinesDay,,,0.002290950744558992,0.04780901891113172,False,True,True
+1,event_29,event,VeteransDay,,,0.0028636884306987398,0.05343676374248962,False,True,True
+1,snap_CA,SNAP,,,,0.32646048109965636,0.46891794098737255,False,False,True
+1,snap_TX,SNAP,,,,0.32646048109965636,0.46891794098737255,False,False,True
+1,snap_WI,SNAP,,,,0.32646048109965636,0.46891794098737255,False,False,True
+2,lag_28,historical_sales,,28,28,34242.66009019166,7084.10757317034,True,True,True
+2,lag_35,historical_sales,,35,35,34186.03664036077,7099.15156666814,True,True,True
+2,lag_42,historical_sales,,42,42,34138.04171364149,7103.785998252634,True,True,True
+2,lag_56,historical_sales,,56,56,34021.6099210823,7113.991338352644,True,True,True
+2,rolling_mean_7_shift_28,historical_sales,,28,34,34207.13311322274,4593.51636735456,True,True,True
+2,rolling_std_7_shift_28,historical_sales,,28,34,5179.2917879114175,1526.2799603817296,True,True,True
+2,rolling_mean_28_shift_28,historical_sales,,28,55,34130.069153647935,4219.106472259454,True,True,True
+2,rolling_std_28_shift_28,historical_sales,,28,55,5609.6376296142735,1063.1593329130742,True,True,True
+2,rolling_mean_56_shift_28,historical_sales,,28,83,34035.65609397648,4226.044031146025,True,True,True
+2,rolling_std_56_shift_28,historical_sales,,28,83,5640.746300788871,937.3646793599679,True,True,True
+2,weekday_2,calendar,,,,0.14261555806087936,0.34968036928010104,False,True,True
+2,weekday_3,calendar,,,,0.14261555806087936,0.349680369280101,False,True,True
+2,weekday_4,calendar,,,,0.14261555806087936,0.349680369280101,False,True,True
+2,weekday_5,calendar,,,,0.14317925591882752,0.35025555897566946,False,True,True
+2,weekday_6,calendar,,,,0.14317925591882752,0.35025555897566946,False,True,True
+2,weekday_7,calendar,,,,0.14317925591882752,0.35025555897566946,False,True,True
+2,month_sin,calendar,,,,-0.030262983923040124,0.699039155864705,False,True,True
+2,month_cos,calendar,,,,-0.013130906783573855,0.7143220489800648,False,True,True
+2,event_00,event,Chanukah End,,,0.002818489289740699,0.05301457731477532,False,True,True
+2,event_01,event,Christmas,,,0.002818489289740699,0.053014577314775296,False,True,True
+2,event_02,event,Cinco De Mayo,,,0.002818489289740699,0.053014577314775754,False,True,True
+2,event_03,event,ColumbusDay,,,0.002818489289740699,0.05301457731477544,False,True,True
+2,event_04,event,Easter,,,0.002818489289740699,0.05301457731477581,False,True,True
+2,event_05,event,Eid al-Fitr,,,0.002818489289740699,0.05301457731477562,False,True,True
+2,event_06,event,EidAlAdha,,,0.002818489289740699,0.05301457731477549,False,True,True
+2,event_07,event,Father's day,,,0.002818489289740699,0.05301457731477566,False,True,True
+2,event_08,event,Halloween,,,0.002818489289740699,0.05301457731477541,False,True,True
+2,event_09,event,IndependenceDay,,,0.002818489289740699,0.053014577314775636,False,True,True
+2,event_10,event,LaborDay,,,0.002818489289740699,0.053014577314775505,False,True,True
+2,event_11,event,LentStart,,,0.002818489289740699,0.053014577314775206,False,True,True
+2,event_12,event,LentWeek2,,,0.002818489289740699,0.05301457731477519,False,True,True
+2,event_13,event,MartinLutherKingDay,,,0.002818489289740699,0.053014577314775255,False,True,True
+2,event_14,event,MemorialDay,,,0.002818489289740699,0.05301457731477571,False,True,True
+2,event_15,event,Mother's day,,,0.002818489289740699,0.05301457731477575,False,True,True
+2,event_16,event,NBAFinalsEnd,,,0.002818489289740699,0.05301457731477568,False,True,True
+2,event_17,event,NBAFinalsStart,,,0.002818489289740699,0.053014577314775706,False,True,True
+2,event_18,event,NewYear,,,0.002818489289740699,0.05301457731477529,False,True,True
+2,event_19,event,OrthodoxChristmas,,,0.002818489289740699,0.05301457731477527,False,True,True
+2,event_20,event,OrthodoxEaster,,,0.002818489289740699,0.053014577314775796,False,True,True
+2,event_21,event,Pesach End,,,0.002818489289740699,0.0530145773147758,False,True,True
+2,event_22,event,PresidentsDay,,,0.002818489289740699,0.0530145773147752,False,True,True
+2,event_23,event,Purim End,,,0.002254791431792559,0.04743107997285876,False,True,True
+2,event_24,event,Ramadan starts,,,0.002818489289740699,0.05301457731477568,False,True,True
+2,event_25,event,StPatricksDay,,,0.002254791431792559,0.04743107997285877,False,True,True
+2,event_26,event,SuperBowl,,,0.002818489289740699,0.053014577314775206,False,True,True
+2,event_27,event,Thanksgiving,,,0.002818489289740699,0.05301457731477535,False,True,True
+2,event_28,event,ValentinesDay,,,0.002818489289740699,0.0530145773147752,False,True,True
+2,event_29,event,VeteransDay,,,0.002818489289740699,0.05301457731477539,False,True,True
+2,snap_CA,SNAP,,,,0.3269447576099211,0.46909688027241414,False,False,True
+2,snap_TX,SNAP,,,,0.3269447576099211,0.46909688027241414,False,False,True
+2,snap_WI,SNAP,,,,0.3269447576099211,0.46909688027241414,False,False,True
+3,lag_28,historical_sales,,28,28,34363.01165371809,7138.61907398328,True,True,True
+3,lag_35,historical_sales,,35,35,34301.597114317425,7156.16974282909,True,True,True
+3,lag_42,historical_sales,,42,42,34236.41897891232,7147.465671815718,True,True,True
+3,lag_56,historical_sales,,56,56,34099.83018867925,7139.184464644458,True,True,True
+3,rolling_mean_7_shift_28,historical_sales,,28,34,34327.25352782622,4661.17409455066,True,True,True
+3,rolling_std_7_shift_28,historical_sales,,28,34,5196.743325337761,1523.3709625661515,True,True,True
+3,rolling_mean_28_shift_28,historical_sales,,28,55,34231.47316473759,4265.1661362346695,True,True,True
+3,rolling_std_28_shift_28,historical_sales,,28,55,5628.80933356256,1066.208431821166,True,True,True
+3,rolling_mean_56_shift_28,historical_sales,,28,83,34113.10170247345,4240.040627149624,True,True,True
+3,rolling_std_56_shift_28,historical_sales,,28,83,5671.178876432133,964.7060023881769,True,True,True
+3,weekday_2,calendar,,,,0.14261931187569368,0.34968420575684683,False,True,True
+3,weekday_3,calendar,,,,0.14261931187569368,0.34968420575684683,False,True,True
+3,weekday_4,calendar,,,,0.14261931187569368,0.34968420575684683,False,True,True
+3,weekday_5,calendar,,,,0.14317425083240842,0.350250460001112,False,True,True
+3,weekday_6,calendar,,,,0.14317425083240842,0.35025046000111193,False,True,True
+3,weekday_7,calendar,,,,0.14317425083240842,0.35025046000111193,False,True,True
+3,month_sin,calendar,,,,-0.016539316080628957,0.7021874276452262,False,True,True
+3,month_cos,calendar,,,,-0.004954607785946472,0.7117827753902607,False,True,True
+3,event_00,event,Chanukah End,,,0.002774694783573807,0.05260224189549147,False,True,True
+3,event_01,event,Christmas,,,0.002774694783573807,0.05260224189549144,False,True,True
+3,event_02,event,Cinco De Mayo,,,0.002774694783573807,0.052602241895491925,False,True,True
+3,event_03,event,ColumbusDay,,,0.002774694783573807,0.05260224189549159,False,True,True
+3,event_04,event,Easter,,,0.003329633740288568,0.057606833617584806,False,True,True
+3,event_05,event,Eid al-Fitr,,,0.002774694783573807,0.052602241895491786,False,True,True
+3,event_06,event,EidAlAdha,,,0.002774694783573807,0.05260224189549165,False,True,True
+3,event_07,event,Father's day,,,0.002774694783573807,0.05260224189549183,False,True,True
+3,event_08,event,Halloween,,,0.002774694783573807,0.05260224189549156,False,True,True
+3,event_09,event,IndependenceDay,,,0.002774694783573807,0.0526022418954918,False,True,True
+3,event_10,event,LaborDay,,,0.002774694783573807,0.05260224189549166,False,True,True
+3,event_11,event,LentStart,,,0.002774694783573807,0.05260224189549134,False,True,True
+3,event_12,event,LentWeek2,,,0.002774694783573807,0.05260224189549133,False,True,True
+3,event_13,event,MartinLutherKingDay,,,0.002774694783573807,0.05260224189549139,False,True,True
+3,event_14,event,MemorialDay,,,0.002774694783573807,0.05260224189549189,False,True,True
+3,event_15,event,Mother's day,,,0.002774694783573807,0.05260224189549192,False,True,True
+3,event_16,event,NBAFinalsEnd,,,0.002774694783573807,0.05260224189549184,False,True,True
+3,event_17,event,NBAFinalsStart,,,0.002774694783573807,0.05260224189549186,False,True,True
+3,event_18,event,NewYear,,,0.002774694783573807,0.052602241895491425,False,True,True
+3,event_19,event,OrthodoxChristmas,,,0.002774694783573807,0.05260224189549141,False,True,True
+3,event_20,event,OrthodoxEaster,,,0.002774694783573807,0.05260224189549197,False,True,True
+3,event_21,event,Pesach End,,,0.002774694783573807,0.05260224189549198,False,True,True
+3,event_22,event,PresidentsDay,,,0.002774694783573807,0.052602241895491335,False,True,True
+3,event_23,event,Purim End,,,0.002774694783573807,0.05260224189549125,False,True,True
+3,event_24,event,Ramadan starts,,,0.002774694783573807,0.05260224189549184,False,True,True
+3,event_25,event,StPatricksDay,,,0.002774694783573807,0.05260224189549127,False,True,True
+3,event_26,event,SuperBowl,,,0.002774694783573807,0.05260224189549134,False,True,True
+3,event_27,event,Thanksgiving,,,0.002774694783573807,0.052602241895491494,False,True,True
+3,event_28,event,ValentinesDay,,,0.002774694783573807,0.052602241895491335,False,True,True
+3,event_29,event,VeteransDay,,,0.002774694783573807,0.05260224189549153,False,True,True
+3,snap_CA,SNAP,,,,0.3274139844617092,0.4692697169439057,False,False,True
+3,snap_TX,SNAP,,,,0.3274139844617092,0.4692697169439056,False,False,True
+3,snap_WI,SNAP,,,,0.3274139844617092,0.4692697169439056,False,False,True

@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-11-03T16:06:36.093025+00:00",
+  "python": "3.13.18",
+  "versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.0"
+  },
+  "files_read": [
+    "train.csv",
+    "val.csv"
+  ],
+  "test_labels_read": false,
+  "test_features_computed": false,
+  "forecast_models_trained": 0,
+  "folds": [
+    {
+      "fold": 1,
+      "origin_day": 1829,
+      "training_rows": 1746,
+      "training_first_day": 84,
+      "training_last_day": 1829,
+      "forecast_rows": 28,
+      "forecast_first_day": 1830,
+      "forecast_last_day": 1857,
+      "lags_features": 10,
+      "calendar_event_features": 48,
+      "full_features": 51,
+      "unseen_event_count": 0,
+      "scaler_fit_rows": 1746
+    },
+    {
+      "fold": 2,
+      "origin_day": 1857,
+      "training_rows": 1774,
+      "training_first_day": 84,
+      "training_last_day": 1857,
+      "forecast_rows": 28,
+      "forecast_first_day": 1858,
+      "forecast_last_day": 1885,
+      "lags_features": 10,
+      "calendar_event_features": 48,
+      "full_features": 51,
+      "unseen_event_count": 0,
+      "scaler_fit_rows": 1774
+    },
+    {
+      "fold": 3,
+      "origin_day": 1885,
+      "training_rows": 1802,
+      "training_first_day": 84,
+      "training_last_day": 1885,
+      "forecast_rows": 28,
+      "forecast_first_day": 1886,
+      "forecast_last_day": 1913,
+      "lags_features": 10,
+      "calendar_event_features": 48,
+      "full_features": 51,
+      "unseen_event_count": 0,
+      "scaler_fit_rows": 1802
+    }
+  ],
+  "checks_passed": 24,
+  "checks_total": 24,
+  "data_fingerprints": {
+    "train.csv": "dcb9407590b16f6b975a1647c1c20f3cb932bc78dd75c1637f94d313c599d271",
+    "val.csv": "fbee2683fca3c5fc731b1d81829a56aa12c71e5b70ad124a1ac01ab3754536b5"
+  },
+  "elapsed_seconds_before_packaging": 2.681414356999994,
+  "files": [
+    "02_Data/processed/ml_features/ml_features_fold_1.npz",
+    "02_Data/processed/ml_features/ml_features_fold_2.npz",
+    "02_Data/processed/ml_features/ml_features_fold_3.npz",
+    "04_Outputs_and_Artifacts/table/ml_feature_dictionary.csv",
+    "04_Outputs_and_Artifacts/table/ml_feature_fold_summary.csv",
+    "04_Outputs_and_Artifacts/table/ml_feature_leakage_checks.csv",
+    "04_Outputs_and_Artifacts/figures/ml_feature_source_availability.png",
+    "04_Outputs_and_Artifacts/ml_feature_manifest.json"
+  ]
+}
