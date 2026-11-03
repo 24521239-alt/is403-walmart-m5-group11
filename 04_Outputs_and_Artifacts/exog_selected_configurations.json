@@ -1,0 +1,642 @@
+{
+  "source_config_sha256": "5797feb363e751c3785068362ff37d13e768ccc9a7c5d5f60acb5c9cb77c99a8",
+  "frozen_error_configs": [
+    {
+      "family": "ARIMA",
+      "config_id": "arima_7_1_2_t",
+      "p": 7,
+      "d": 1,
+      "q": 2,
+      "P": 0,
+      "D": 0,
+      "Q": 0,
+      "s": 0,
+      "trend": "t"
+    },
+    {
+      "family": "SARIMA",
+      "config_id": "sarima_1_1_1_1_1_1_7_n",
+      "p": 1,
+      "d": 1,
+      "q": 1,
+      "P": 1,
+      "D": 1,
+      "Q": 1,
+      "s": 7,
+      "trend": "n"
+    }
+  ],
+  "forecast_horizon": 28,
+  "target_divisor": 1000.0,
+  "selection_metric": "Validation RMSSE",
+  "selected_models": [
+    {
+      "model": "ARIMAX",
+      "config_id": "arima_7_1_2_t__calendar_events_snap",
+      "error_config": {
+        "family": "ARIMA",
+        "config_id": "arima_7_1_2_t",
+        "p": 7,
+        "d": 1,
+        "q": 2,
+        "P": 0,
+        "D": 0,
+        "Q": 0,
+        "s": 0,
+        "trend": "t"
+      },
+      "feature_schema": {
+        "feature_group": "calendar_events_snap",
+        "event_vocabulary": [
+          "Chanukah End",
+          "Christmas",
+          "Cinco De Mayo",
+          "ColumbusDay",
+          "Easter",
+          "Eid al-Fitr",
+          "EidAlAdha",
+          "Father's day",
+          "Halloween",
+          "IndependenceDay",
+          "LaborDay",
+          "LentStart",
+          "LentWeek2",
+          "MartinLutherKingDay",
+          "MemorialDay",
+          "Mother's day",
+          "NBAFinalsEnd",
+          "NBAFinalsStart",
+          "NewYear",
+          "OrthodoxChristmas",
+          "OrthodoxEaster",
+          "Pesach End",
+          "PresidentsDay",
+          "Purim End",
+          "Ramadan starts",
+          "StPatricksDay",
+          "SuperBowl",
+          "Thanksgiving",
+          "ValentinesDay",
+          "VeteransDay"
+        ],
+        "retained_columns": [
+          "weekday_2",
+          "weekday_3",
+          "weekday_4",
+          "weekday_5",
+          "weekday_6",
+          "weekday_7",
+          "month_sin",
+          "month_cos",
+          "event__Chanukah End",
+          "event__Christmas",
+          "event__Cinco De Mayo",
+          "event__ColumbusDay",
+          "event__Easter",
+          "event__Eid al-Fitr",
+          "event__EidAlAdha",
+          "event__Father's day",
+          "event__Halloween",
+          "event__IndependenceDay",
+          "event__LaborDay",
+          "event__LentStart",
+          "event__LentWeek2",
+          "event__MartinLutherKingDay",
+          "event__MemorialDay",
+          "event__Mother's day",
+          "event__NBAFinalsEnd",
+          "event__NBAFinalsStart",
+          "event__NewYear",
+          "event__OrthodoxChristmas",
+          "event__OrthodoxEaster",
+          "event__Pesach End",
+          "event__PresidentsDay",
+          "event__Purim End",
+          "event__Ramadan starts",
+          "event__StPatricksDay",
+          "event__SuperBowl",
+          "event__Thanksgiving",
+          "event__ValentinesDay",
+          "event__VeteransDay",
+          "snap_CA",
+          "snap_TX",
+          "snap_WI"
+        ],
+        "dropped_columns": [],
+        "unseen_future_events": [],
+        "raw_columns": [
+          "weekday_2",
+          "weekday_3",
+          "weekday_4",
+          "weekday_5",
+          "weekday_6",
+          "weekday_7",
+          "month_sin",
+          "month_cos",
+          "event__Chanukah End",
+          "event__Christmas",
+          "event__Cinco De Mayo",
+          "event__ColumbusDay",
+          "event__Easter",
+          "event__Eid al-Fitr",
+          "event__EidAlAdha",
+          "event__Father's day",
+          "event__Halloween",
+          "event__IndependenceDay",
+          "event__LaborDay",
+          "event__LentStart",
+          "event__LentWeek2",
+          "event__MartinLutherKingDay",
+          "event__MemorialDay",
+          "event__Mother's day",
+          "event__NBAFinalsEnd",
+          "event__NBAFinalsStart",
+          "event__NewYear",
+          "event__OrthodoxChristmas",
+          "event__OrthodoxEaster",
+          "event__Pesach End",
+          "event__PresidentsDay",
+          "event__Purim End",
+          "event__Ramadan starts",
+          "event__StPatricksDay",
+          "event__SuperBowl",
+          "event__Thanksgiving",
+          "event__ValentinesDay",
+          "event__VeteransDay",
+          "snap_CA",
+          "snap_TX",
+          "snap_WI"
+        ],
+        "fit_rows": 1885,
+        "scaling": {
+          "weekday_2": {
+            "mean": 0.1427055702917772,
+            "scale": 0.3497723409583421
+          },
+          "weekday_3": {
+            "mean": 0.1427055702917772,
+            "scale": 0.3497723409583421
+          },
+          "weekday_4": {
+            "mean": 0.1427055702917772,
+            "scale": 0.3497723409583421
+          },
+          "weekday_5": {
+            "mean": 0.1427055702917772,
+            "scale": 0.3497723409583421
+          },
+          "weekday_6": {
+            "mean": 0.14323607427055704,
+            "scale": 0.3503134329398683
+          },
+          "weekday_7": {
+            "mean": 0.14323607427055704,
+            "scale": 0.3503134329398683
+          },
+          "month_sin": {
+            "mean": 0.016998907129986297,
+            "scale": 0.7060576486407646
+          },
+          "month_cos": {
+            "mean": 0.017941914098508576,
+            "scale": 0.7077229130604238
+          },
+          "event__Chanukah End": {
+            "mean": 0.002652519893899204,
+            "scale": 0.0514342690442047
+          },
+          "event__Christmas": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420472
+          },
+          "event__Cinco De Mayo": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204575
+          },
+          "event__ColumbusDay": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420468
+          },
+          "event__Easter": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359219
+          },
+          "event__Eid al-Fitr": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204624
+          },
+          "event__EidAlAdha": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204665
+          },
+          "event__Father's day": {
+            "mean": 0.002652519893899204,
+            "scale": 0.0514342690442046
+          },
+          "event__Halloween": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204686
+          },
+          "event__IndependenceDay": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420461
+          },
+          "event__LaborDay": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204645
+          },
+          "event__LentStart": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359222
+          },
+          "event__LentWeek2": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359222
+          },
+          "event__MartinLutherKingDay": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204735
+          },
+          "event__MemorialDay": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420458
+          },
+          "event__Mother's day": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204575
+          },
+          "event__NBAFinalsEnd": {
+            "mean": 0.002652519893899204,
+            "scale": 0.0514342690442046
+          },
+          "event__NBAFinalsStart": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420458
+          },
+          "event__NewYear": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420472
+          },
+          "event__OrthodoxChristmas": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420473
+          },
+          "event__OrthodoxEaster": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420458
+          },
+          "event__Pesach End": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420455
+          },
+          "event__PresidentsDay": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359222
+          },
+          "event__Purim End": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359222
+          },
+          "event__Ramadan starts": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420461
+          },
+          "event__StPatricksDay": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359221
+          },
+          "event__SuperBowl": {
+            "mean": 0.003183023872679045,
+            "scale": 0.056328431823592234
+          },
+          "event__Thanksgiving": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420471
+          },
+          "event__ValentinesDay": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359222
+          },
+          "event__VeteransDay": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420469
+          },
+          "snap_CA": {
+            "mean": 0.32891246684350134,
+            "scale": 0.4698181094832572
+          },
+          "snap_TX": {
+            "mean": 0.32891246684350134,
+            "scale": 0.4698181094832572
+          },
+          "snap_WI": {
+            "mean": 0.32891246684350134,
+            "scale": 0.4698181094832572
+          }
+        }
+      }
+    },
+    {
+      "model": "SARIMAX",
+      "config_id": "sarima_1_1_1_1_1_1_7_n__calendar_events_snap",
+      "error_config": {
+        "family": "SARIMA",
+        "config_id": "sarima_1_1_1_1_1_1_7_n",
+        "p": 1,
+        "d": 1,
+        "q": 1,
+        "P": 1,
+        "D": 1,
+        "Q": 1,
+        "s": 7,
+        "trend": "n"
+      },
+      "feature_schema": {
+        "feature_group": "calendar_events_snap",
+        "event_vocabulary": [
+          "Chanukah End",
+          "Christmas",
+          "Cinco De Mayo",
+          "ColumbusDay",
+          "Easter",
+          "Eid al-Fitr",
+          "EidAlAdha",
+          "Father's day",
+          "Halloween",
+          "IndependenceDay",
+          "LaborDay",
+          "LentStart",
+          "LentWeek2",
+          "MartinLutherKingDay",
+          "MemorialDay",
+          "Mother's day",
+          "NBAFinalsEnd",
+          "NBAFinalsStart",
+          "NewYear",
+          "OrthodoxChristmas",
+          "OrthodoxEaster",
+          "Pesach End",
+          "PresidentsDay",
+          "Purim End",
+          "Ramadan starts",
+          "StPatricksDay",
+          "SuperBowl",
+          "Thanksgiving",
+          "ValentinesDay",
+          "VeteransDay"
+        ],
+        "retained_columns": [
+          "month_sin",
+          "month_cos",
+          "event__Chanukah End",
+          "event__Christmas",
+          "event__Cinco De Mayo",
+          "event__ColumbusDay",
+          "event__Easter",
+          "event__Eid al-Fitr",
+          "event__EidAlAdha",
+          "event__Father's day",
+          "event__Halloween",
+          "event__IndependenceDay",
+          "event__LaborDay",
+          "event__LentStart",
+          "event__LentWeek2",
+          "event__MartinLutherKingDay",
+          "event__MemorialDay",
+          "event__Mother's day",
+          "event__NBAFinalsEnd",
+          "event__NBAFinalsStart",
+          "event__NewYear",
+          "event__OrthodoxChristmas",
+          "event__OrthodoxEaster",
+          "event__Pesach End",
+          "event__PresidentsDay",
+          "event__Purim End",
+          "event__Ramadan starts",
+          "event__StPatricksDay",
+          "event__SuperBowl",
+          "event__Thanksgiving",
+          "event__ValentinesDay",
+          "event__VeteransDay",
+          "snap_CA",
+          "snap_TX",
+          "snap_WI"
+        ],
+        "dropped_columns": [
+          {
+            "feature": "weekday_2",
+            "reason": "zero after model differencing"
+          },
+          {
+            "feature": "weekday_3",
+            "reason": "zero after model differencing"
+          },
+          {
+            "feature": "weekday_4",
+            "reason": "zero after model differencing"
+          },
+          {
+            "feature": "weekday_5",
+            "reason": "zero after model differencing"
+          },
+          {
+            "feature": "weekday_6",
+            "reason": "zero after model differencing"
+          },
+          {
+            "feature": "weekday_7",
+            "reason": "zero after model differencing"
+          }
+        ],
+        "unseen_future_events": [],
+        "raw_columns": [
+          "weekday_2",
+          "weekday_3",
+          "weekday_4",
+          "weekday_5",
+          "weekday_6",
+          "weekday_7",
+          "month_sin",
+          "month_cos",
+          "event__Chanukah End",
+          "event__Christmas",
+          "event__Cinco De Mayo",
+          "event__ColumbusDay",
+          "event__Easter",
+          "event__Eid al-Fitr",
+          "event__EidAlAdha",
+          "event__Father's day",
+          "event__Halloween",
+          "event__IndependenceDay",
+          "event__LaborDay",
+          "event__LentStart",
+          "event__LentWeek2",
+          "event__MartinLutherKingDay",
+          "event__MemorialDay",
+          "event__Mother's day",
+          "event__NBAFinalsEnd",
+          "event__NBAFinalsStart",
+          "event__NewYear",
+          "event__OrthodoxChristmas",
+          "event__OrthodoxEaster",
+          "event__Pesach End",
+          "event__PresidentsDay",
+          "event__Purim End",
+          "event__Ramadan starts",
+          "event__StPatricksDay",
+          "event__SuperBowl",
+          "event__Thanksgiving",
+          "event__ValentinesDay",
+          "event__VeteransDay",
+          "snap_CA",
+          "snap_TX",
+          "snap_WI"
+        ],
+        "fit_rows": 1885,
+        "scaling": {
+          "month_sin": {
+            "mean": 0.016998907129986297,
+            "scale": 0.7060576486407646
+          },
+          "month_cos": {
+            "mean": 0.017941914098508576,
+            "scale": 0.7077229130604238
+          },
+          "event__Chanukah End": {
+            "mean": 0.002652519893899204,
+            "scale": 0.0514342690442047
+          },
+          "event__Christmas": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420472
+          },
+          "event__Cinco De Mayo": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204575
+          },
+          "event__ColumbusDay": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420468
+          },
+          "event__Easter": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359219
+          },
+          "event__Eid al-Fitr": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204624
+          },
+          "event__EidAlAdha": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204665
+          },
+          "event__Father's day": {
+            "mean": 0.002652519893899204,
+            "scale": 0.0514342690442046
+          },
+          "event__Halloween": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204686
+          },
+          "event__IndependenceDay": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420461
+          },
+          "event__LaborDay": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204645
+          },
+          "event__LentStart": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359222
+          },
+          "event__LentWeek2": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359222
+          },
+          "event__MartinLutherKingDay": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204735
+          },
+          "event__MemorialDay": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420458
+          },
+          "event__Mother's day": {
+            "mean": 0.002652519893899204,
+            "scale": 0.051434269044204575
+          },
+          "event__NBAFinalsEnd": {
+            "mean": 0.002652519893899204,
+            "scale": 0.0514342690442046
+          },
+          "event__NBAFinalsStart": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420458
+          },
+          "event__NewYear": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420472
+          },
+          "event__OrthodoxChristmas": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420473
+          },
+          "event__OrthodoxEaster": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420458
+          },
+          "event__Pesach End": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420455
+          },
+          "event__PresidentsDay": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359222
+          },
+          "event__Purim End": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359222
+          },
+          "event__Ramadan starts": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420461
+          },
+          "event__StPatricksDay": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359221
+          },
+          "event__SuperBowl": {
+            "mean": 0.003183023872679045,
+            "scale": 0.056328431823592234
+          },
+          "event__Thanksgiving": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420471
+          },
+          "event__ValentinesDay": {
+            "mean": 0.003183023872679045,
+            "scale": 0.05632843182359222
+          },
+          "event__VeteransDay": {
+            "mean": 0.002652519893899204,
+            "scale": 0.05143426904420469
+          },
+          "snap_CA": {
+            "mean": 0.32891246684350134,
+            "scale": 0.4698181094832572
+          },
+          "snap_TX": {
+            "mean": 0.32891246684350134,
+            "scale": 0.4698181094832572
+          },
+          "snap_WI": {
+            "mean": 0.32891246684350134,
+            "scale": 0.4698181094832572
+          }
+        }
+      }
+    }
+  ],
+  "test_labels_read": false
+}

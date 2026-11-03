@@ -1,0 +1,7 @@
+model,config_id,lag,model_df,discarded_start_rows,innovation_rows,lb_stat,lb_pvalue,reject_no_autocorrelation
+ARIMAX,arima_7_1_2_t__calendar_events_snap,56,51,28,1857,187.427349929,1.38569933247e-38,True
+ARIMAX,arima_7_1_2_t__calendar_events_snap,84,51,28,1857,271.701633728,2.51301309798e-39,True
+ARIMAX,arima_7_1_2_t__calendar_events_snap,112,51,28,1857,335.010409691,1.82991560352e-39,True
+SARIMAX,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,56,39,28,1857,225.581912134,1.94970305506e-38,True
+SARIMAX,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,84,39,28,1857,314.532670366,4.11173708231e-42,True
+SARIMAX,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,112,39,28,1857,384.572748294,7.38597621693e-44,True

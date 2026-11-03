@@ -1,0 +1,475 @@
+family,config_id,fold,origin_day,fit_rows,feature_group,feature,retained,reason,training_mean,training_std
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,weekday_2,True,,0.14270092947,0.349767600269
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,weekday_3,True,,0.14270092947,0.349767600269
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,weekday_4,True,,0.14270092947,0.349767600269
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,weekday_5,True,,0.14270092947,0.349767600269
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,weekday_6,True,,0.143247676326,0.350325248238
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,weekday_7,True,,0.143247676326,0.350325248238
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,month_sin,True,,-0.00319286274585,0.706422677035
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,month_cos,True,,-0.0026212294336,0.707778168747
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__Chanukah End,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__Christmas,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__Cinco De Mayo,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__ColumbusDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__Easter,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__Eid al-Fitr,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__EidAlAdha,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__Father's day,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__Halloween,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__IndependenceDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__LaborDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__LentStart,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__LentWeek2,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__MartinLutherKingDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__MemorialDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__Mother's day,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__NBAFinalsEnd,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__NBAFinalsStart,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__NewYear,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__OrthodoxChristmas,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__OrthodoxEaster,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__Pesach End,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__PresidentsDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__Purim End,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__Ramadan starts,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__StPatricksDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__SuperBowl,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__Thanksgiving,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__ValentinesDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events,1,d_1829,1829,calendar_events,event__VeteransDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,weekday_2,True,,0.14270092947,0.349767600269
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,weekday_3,True,,0.14270092947,0.349767600269
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,weekday_4,True,,0.14270092947,0.349767600269
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,weekday_5,True,,0.14270092947,0.349767600269
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,weekday_6,True,,0.143247676326,0.350325248238
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,weekday_7,True,,0.143247676326,0.350325248238
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,month_sin,True,,-0.00319286274585,0.706422677035
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,month_cos,True,,-0.0026212294336,0.707778168747
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Chanukah End,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Christmas,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Cinco De Mayo,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__ColumbusDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Easter,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Eid al-Fitr,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__EidAlAdha,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Father's day,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Halloween,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__IndependenceDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__LaborDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__LentStart,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__LentWeek2,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__MartinLutherKingDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__MemorialDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Mother's day,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__NBAFinalsEnd,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__NBAFinalsStart,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__NewYear,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__OrthodoxChristmas,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__OrthodoxEaster,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Pesach End,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__PresidentsDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Purim End,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Ramadan starts,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__StPatricksDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__SuperBowl,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Thanksgiving,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__ValentinesDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__VeteransDay,True,,0.00273373428103,0.0522136091255
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,snap_CA,True,,0.328048113723,0.469502448136
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,snap_TX,True,,0.328048113723,0.469502448136
+ARIMA,arima_7_1_2_t__calendar_events_snap,1,d_1829,1829,calendar_events_snap,snap_WI,True,,0.328048113723,0.469502448136
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,month_sin,True,,-0.00319286274585,0.706422677035
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,month_cos,True,,-0.0026212294336,0.707778168747
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__Chanukah End,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__Christmas,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__Cinco De Mayo,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__ColumbusDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__Easter,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__Eid al-Fitr,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__EidAlAdha,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__Father's day,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__Halloween,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__IndependenceDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__LaborDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__LentStart,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__LentWeek2,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__MartinLutherKingDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__MemorialDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__Mother's day,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__NBAFinalsEnd,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__NBAFinalsStart,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__NewYear,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__OrthodoxChristmas,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__OrthodoxEaster,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__Pesach End,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__PresidentsDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__Purim End,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__Ramadan starts,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__StPatricksDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__SuperBowl,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__Thanksgiving,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__ValentinesDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,event__VeteransDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,weekday_2,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,weekday_3,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,weekday_4,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,weekday_5,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,weekday_6,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,1,d_1829,1829,calendar_events,weekday_7,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,month_sin,True,,-0.00319286274585,0.706422677035
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,month_cos,True,,-0.0026212294336,0.707778168747
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Chanukah End,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Christmas,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Cinco De Mayo,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__ColumbusDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Easter,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Eid al-Fitr,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__EidAlAdha,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Father's day,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Halloween,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__IndependenceDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__LaborDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__LentStart,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__LentWeek2,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__MartinLutherKingDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__MemorialDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Mother's day,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__NBAFinalsEnd,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__NBAFinalsStart,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__NewYear,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__OrthodoxChristmas,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__OrthodoxEaster,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Pesach End,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__PresidentsDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Purim End,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Ramadan starts,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__StPatricksDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__SuperBowl,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__Thanksgiving,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__ValentinesDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,event__VeteransDay,True,,0.00273373428103,0.0522136091255
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,snap_CA,True,,0.328048113723,0.469502448136
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,snap_TX,True,,0.328048113723,0.469502448136
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,snap_WI,True,,0.328048113723,0.469502448136
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,weekday_2,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,weekday_3,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,weekday_4,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,weekday_5,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,weekday_6,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1,d_1829,1829,calendar_events_snap,weekday_7,False,zero after model differencing,,
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,weekday_2,True,,0.142703284868,0.34977000637
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,weekday_3,True,,0.142703284868,0.34977000637
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,weekday_4,True,,0.142703284868,0.34977000637
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,weekday_5,True,,0.142703284868,0.34977000637
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,weekday_6,True,,0.14324178783,0.350319251611
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,weekday_7,True,,0.14324178783,0.350319251611
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,month_sin,True,,0.00439432096814,0.703753358093
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,month_cos,True,,0.0104762965385,0.710353537421
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__Chanukah End,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__Christmas,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__Cinco De Mayo,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__ColumbusDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__Easter,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__Eid al-Fitr,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__EidAlAdha,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__Father's day,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__Halloween,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__IndependenceDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__LaborDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__LentStart,True,,0.0032310177706,0.0567501391607
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__LentWeek2,True,,0.0032310177706,0.0567501391607
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__MartinLutherKingDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__MemorialDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__Mother's day,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__NBAFinalsEnd,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__NBAFinalsStart,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__NewYear,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__OrthodoxChristmas,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__OrthodoxEaster,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__Pesach End,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__PresidentsDay,True,,0.0032310177706,0.0567501391607
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__Purim End,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__Ramadan starts,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__StPatricksDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__SuperBowl,True,,0.0032310177706,0.0567501391607
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__Thanksgiving,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__ValentinesDay,True,,0.0032310177706,0.0567501391607
+ARIMA,arima_7_1_2_t__calendar_events,2,d_1857,1857,calendar_events,event__VeteransDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,weekday_2,True,,0.142703284868,0.34977000637
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,weekday_3,True,,0.142703284868,0.34977000637
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,weekday_4,True,,0.142703284868,0.34977000637
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,weekday_5,True,,0.142703284868,0.34977000637
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,weekday_6,True,,0.14324178783,0.350319251611
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,weekday_7,True,,0.14324178783,0.350319251611
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,month_sin,True,,0.00439432096814,0.703753358093
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,month_cos,True,,0.0104762965385,0.710353537421
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Chanukah End,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Christmas,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Cinco De Mayo,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__ColumbusDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Easter,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Eid al-Fitr,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__EidAlAdha,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Father's day,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Halloween,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__IndependenceDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__LaborDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__LentStart,True,,0.0032310177706,0.0567501391607
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__LentWeek2,True,,0.0032310177706,0.0567501391607
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__MartinLutherKingDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__MemorialDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Mother's day,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__NBAFinalsEnd,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__NBAFinalsStart,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__NewYear,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__OrthodoxChristmas,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__OrthodoxEaster,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Pesach End,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__PresidentsDay,True,,0.0032310177706,0.0567501391607
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Purim End,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Ramadan starts,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__StPatricksDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__SuperBowl,True,,0.0032310177706,0.0567501391607
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Thanksgiving,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__ValentinesDay,True,,0.0032310177706,0.0567501391607
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__VeteransDay,True,,0.00269251480883,0.0518195443133
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,snap_CA,True,,0.328486806677,0.469662883903
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,snap_TX,True,,0.328486806677,0.469662883903
+ARIMA,arima_7_1_2_t__calendar_events_snap,2,d_1857,1857,calendar_events_snap,snap_WI,True,,0.328486806677,0.469662883903
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,month_sin,True,,0.00439432096814,0.703753358093
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,month_cos,True,,0.0104762965385,0.710353537421
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__Chanukah End,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__Christmas,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__Cinco De Mayo,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__ColumbusDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__Easter,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__Eid al-Fitr,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__EidAlAdha,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__Father's day,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__Halloween,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__IndependenceDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__LaborDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__LentStart,True,,0.0032310177706,0.0567501391607
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__LentWeek2,True,,0.0032310177706,0.0567501391607
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__MartinLutherKingDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__MemorialDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__Mother's day,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__NBAFinalsEnd,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__NBAFinalsStart,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__NewYear,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__OrthodoxChristmas,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__OrthodoxEaster,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__Pesach End,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__PresidentsDay,True,,0.0032310177706,0.0567501391607
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__Purim End,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__Ramadan starts,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__StPatricksDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__SuperBowl,True,,0.0032310177706,0.0567501391607
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__Thanksgiving,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__ValentinesDay,True,,0.0032310177706,0.0567501391607
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,event__VeteransDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,weekday_2,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,weekday_3,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,weekday_4,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,weekday_5,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,weekday_6,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,2,d_1857,1857,calendar_events,weekday_7,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,month_sin,True,,0.00439432096814,0.703753358093
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,month_cos,True,,0.0104762965385,0.710353537421
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Chanukah End,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Christmas,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Cinco De Mayo,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__ColumbusDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Easter,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Eid al-Fitr,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__EidAlAdha,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Father's day,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Halloween,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__IndependenceDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__LaborDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__LentStart,True,,0.0032310177706,0.0567501391607
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__LentWeek2,True,,0.0032310177706,0.0567501391607
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__MartinLutherKingDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__MemorialDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Mother's day,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__NBAFinalsEnd,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__NBAFinalsStart,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__NewYear,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__OrthodoxChristmas,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__OrthodoxEaster,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Pesach End,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__PresidentsDay,True,,0.0032310177706,0.0567501391607
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Purim End,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Ramadan starts,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__StPatricksDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__SuperBowl,True,,0.0032310177706,0.0567501391607
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__Thanksgiving,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__ValentinesDay,True,,0.0032310177706,0.0567501391607
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,event__VeteransDay,True,,0.00269251480883,0.0518195443133
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,snap_CA,True,,0.328486806677,0.469662883903
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,snap_TX,True,,0.328486806677,0.469662883903
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,snap_WI,True,,0.328486806677,0.469662883903
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,weekday_2,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,weekday_3,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,weekday_4,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,weekday_5,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,weekday_6,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,2,d_1857,1857,calendar_events_snap,weekday_7,False,zero after model differencing,,
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,weekday_2,True,,0.142705570292,0.349772340958
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,weekday_3,True,,0.142705570292,0.349772340958
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,weekday_4,True,,0.142705570292,0.349772340958
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,weekday_5,True,,0.142705570292,0.349772340958
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,weekday_6,True,,0.143236074271,0.35031343294
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,weekday_7,True,,0.143236074271,0.35031343294
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,month_sin,True,,0.01699890713,0.706057648641
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,month_cos,True,,0.0179419140985,0.70772291306
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__Chanukah End,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__Christmas,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__Cinco De Mayo,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__ColumbusDay,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__Easter,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__Eid al-Fitr,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__EidAlAdha,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__Father's day,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__Halloween,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__IndependenceDay,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__LaborDay,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__LentStart,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__LentWeek2,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__MartinLutherKingDay,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__MemorialDay,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__Mother's day,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__NBAFinalsEnd,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__NBAFinalsStart,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__NewYear,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__OrthodoxChristmas,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__OrthodoxEaster,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__Pesach End,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__PresidentsDay,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__Purim End,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__Ramadan starts,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__StPatricksDay,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__SuperBowl,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__Thanksgiving,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__ValentinesDay,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events,3,d_1885,1885,calendar_events,event__VeteransDay,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,weekday_2,True,,0.142705570292,0.349772340958
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,weekday_3,True,,0.142705570292,0.349772340958
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,weekday_4,True,,0.142705570292,0.349772340958
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,weekday_5,True,,0.142705570292,0.349772340958
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,weekday_6,True,,0.143236074271,0.35031343294
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,weekday_7,True,,0.143236074271,0.35031343294
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,month_sin,True,,0.01699890713,0.706057648641
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,month_cos,True,,0.0179419140985,0.70772291306
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Chanukah End,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Christmas,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Cinco De Mayo,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__ColumbusDay,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Easter,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Eid al-Fitr,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__EidAlAdha,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Father's day,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Halloween,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__IndependenceDay,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__LaborDay,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__LentStart,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__LentWeek2,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__MartinLutherKingDay,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__MemorialDay,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Mother's day,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__NBAFinalsEnd,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__NBAFinalsStart,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__NewYear,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__OrthodoxChristmas,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__OrthodoxEaster,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Pesach End,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__PresidentsDay,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Purim End,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Ramadan starts,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__StPatricksDay,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__SuperBowl,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Thanksgiving,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__ValentinesDay,True,,0.00318302387268,0.0563284318236
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__VeteransDay,True,,0.0026525198939,0.0514342690442
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,snap_CA,True,,0.328912466844,0.469818109483
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,snap_TX,True,,0.328912466844,0.469818109483
+ARIMA,arima_7_1_2_t__calendar_events_snap,3,d_1885,1885,calendar_events_snap,snap_WI,True,,0.328912466844,0.469818109483
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,month_sin,True,,0.01699890713,0.706057648641
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,month_cos,True,,0.0179419140985,0.70772291306
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__Chanukah End,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__Christmas,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__Cinco De Mayo,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__ColumbusDay,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__Easter,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__Eid al-Fitr,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__EidAlAdha,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__Father's day,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__Halloween,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__IndependenceDay,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__LaborDay,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__LentStart,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__LentWeek2,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__MartinLutherKingDay,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__MemorialDay,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__Mother's day,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__NBAFinalsEnd,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__NBAFinalsStart,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__NewYear,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__OrthodoxChristmas,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__OrthodoxEaster,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__Pesach End,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__PresidentsDay,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__Purim End,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__Ramadan starts,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__StPatricksDay,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__SuperBowl,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__Thanksgiving,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__ValentinesDay,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,event__VeteransDay,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,weekday_2,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,weekday_3,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,weekday_4,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,weekday_5,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,weekday_6,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events,3,d_1885,1885,calendar_events,weekday_7,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,month_sin,True,,0.01699890713,0.706057648641
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,month_cos,True,,0.0179419140985,0.70772291306
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Chanukah End,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Christmas,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Cinco De Mayo,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__ColumbusDay,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Easter,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Eid al-Fitr,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__EidAlAdha,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Father's day,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Halloween,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__IndependenceDay,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__LaborDay,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__LentStart,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__LentWeek2,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__MartinLutherKingDay,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__MemorialDay,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Mother's day,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__NBAFinalsEnd,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__NBAFinalsStart,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__NewYear,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__OrthodoxChristmas,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__OrthodoxEaster,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Pesach End,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__PresidentsDay,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Purim End,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Ramadan starts,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__StPatricksDay,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__SuperBowl,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__Thanksgiving,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__ValentinesDay,True,,0.00318302387268,0.0563284318236
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,event__VeteransDay,True,,0.0026525198939,0.0514342690442
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,snap_CA,True,,0.328912466844,0.469818109483
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,snap_TX,True,,0.328912466844,0.469818109483
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,snap_WI,True,,0.328912466844,0.469818109483
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,weekday_2,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,weekday_3,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,weekday_4,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,weekday_5,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,weekday_6,False,zero after model differencing,,
+SARIMA,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,3,d_1885,1885,calendar_events_snap,weekday_7,False,zero after model differencing,,
