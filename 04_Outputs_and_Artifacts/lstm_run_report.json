@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-11-04T02:22:25.161157+00:00",
+  "python": "3.13.18",
+  "versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.0",
+    "torch": "2.11.0+cpu"
+  },
+  "files_read": [
+    "train.csv",
+    "val.csv"
+  ],
+  "data_fingerprints": {
+    "train.csv": "dcb9407590b16f6b975a1647c1c20f3cb932bc78dd75c1637f94d313c599d271",
+    "val.csv": "fbee2683fca3c5fc731b1d81829a56aa12c71e5b70ad124a1ac01ab3754536b5"
+  },
+  "test_labels_read": false,
+  "test_forecasts_computed": false,
+  "candidate_count": 8,
+  "fit_count": 24,
+  "cv_score_rows": 15,
+  "cv_forecast_rows": 420,
+  "seed_runs": 3,
+  "checkpoint_reload_matches": true,
+  "comparison": [
+    {
+      "model": "Seasonal Naive",
+      "config_id": "seasonal_naive_7",
+      "folds": 3,
+      "mean_rmsse": 0.7518889268287978,
+      "std_rmsse": 0.15418122959235528,
+      "validation_rmsse": 0.667678997574433,
+      "validation_mae": 3231.1428571428573,
+      "validation_rmse": 3947.4780737652163
+    },
+    {
+      "model": "Moving Average",
+      "config_id": "moving_average_28",
+      "folds": 3,
+      "mean_rmsse": 1.1642656303046077,
+      "std_rmsse": 0.06032773804889866,
+      "validation_rmsse": 1.200108159846032,
+      "validation_mae": 5959.227040816327,
+      "validation_rmse": 7095.326742864644
+    },
+    {
+      "model": "Moving Average",
+      "config_id": "moving_average_7",
+      "folds": 3,
+      "mean_rmsse": 1.2238115674010517,
+      "std_rmsse": 0.053282237922650716,
+      "validation_rmsse": 1.2164900329969195,
+      "validation_mae": 5810.132653061225,
+      "validation_rmse": 7192.180298697996
+    },
+    {
+      "model": "LSTM",
+      "config_id": "lstm_w28_h32_mse",
+      "folds": 3,
+      "mean_rmsse": 1.5192998095324146,
+      "std_rmsse": 0.18904043179832355,
+      "validation_rmsse": 1.301320387234729,
+      "validation_mae": 5757.121080206974,
+      "validation_rmse": 7693.7176610532615
+    },
+    {
+      "model": "Naive",
+      "config_id": "naive",
+      "folds": 3,
+      "mean_rmsse": 1.7026938293883542,
+      "std_rmsse": 0.27581015052428853,
+      "validation_rmsse": 1.3842651329036886,
+      "validation_mae": 7457.071428571428,
+      "validation_rmse": 8184.1068541411405
+    }
+  ],
+  "validation_seed_rmsse": {
+    "42": 1.301320387234729,
+    "123": 1.5775954808846548,
+    "2026": 1.2511040992057914
+  },
+  "elapsed_seconds_before_packaging": 142.053079701,
+  "files": [
+    "04_Outputs_and_Artifacts/table/lstm_candidate_search.csv",
+    "04_Outputs_and_Artifacts/table/lstm_fit_log.csv",
+    "04_Outputs_and_Artifacts/table/lstm_cv_scores.csv",
+    "04_Outputs_and_Artifacts/table/lstm_comparison_summary.csv",
+    "04_Outputs_and_Artifacts/table/lstm_learning_curves.csv",
+    "04_Outputs_and_Artifacts/table/lstm_seed_sensitivity.csv",
+    "02_Data/predictions/lstm_candidate_predictions.csv",
+    "02_Data/predictions/lstm_cv_predictions.csv",
+    "02_Data/predictions/lstm_seed_predictions.csv",
+    "04_Outputs_and_Artifacts/figures/lstm_validation_forecasts.png",
+    "04_Outputs_and_Artifacts/figures/lstm_learning_curve.png",
+    "04_Outputs_and_Artifacts/models_saved/lstm/lstm_selected_seed42.pt",
+    "04_Outputs_and_Artifacts/lstm_selected_configuration.json"
+  ]
+}

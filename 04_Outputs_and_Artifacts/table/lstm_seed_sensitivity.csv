@@ -1,0 +1,4 @@
+model,config_id,lookback,hidden_size,loss,fold,origin_day,run_id,seed,role,selected_epoch,clipped_forecasts,rmsse,mae,rmse,rmsse_scale
+LSTM,lstm_w28_h32_mse,28,32,mse,3,1885,lstm_w28_h32_mse_fold3_seed42,42,validation_search,18,0,1.301320387234729,5757.121080206974,7693.7176610532615,34954574.68312102
+LSTM,lstm_w28_h32_mse,28,32,mse,3,1885,lstm_w28_h32_mse_fold3_seed123,123,seed_sensitivity,2,0,1.5775954808846548,7932.100537915315,9327.122154039333,34954574.68312102
+LSTM,lstm_w28_h32_mse,28,32,mse,3,1885,lstm_w28_h32_mse_fold3_seed2026,2026,seed_sensitivity,37,0,1.2511040992057914,5633.815755303417,7396.826944615815,34954574.68312102
