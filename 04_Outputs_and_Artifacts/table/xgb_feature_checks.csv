@@ -1,0 +1,25 @@
+fold,check,passed,detail
+1,historical_source_dates,True,Latest historical source is d_1829; origin is d_1829.
+1,independent_historical_values,True,All 28 rows x 10 historical features match scalar calculations.
+1,target_alignment,True,Training targets end at the origin; forecast targets are the next 28 days.
+1,train_only_scaling,True,Means/stds use only usable supervised training rows.
+1,future_sales_invariance,True,Poisoning all forecast-window actual sales changes no model input.
+1,future_event_fit_isolation,True,Future event names cannot alter training vocabulary or scaling.
+1,finite_matrices,True,No missing/infinite input remains after historical warm-up.
+1,nested_feature_groups,True,All ablation groups share identical rows and retain three separate SNAP flags.
+2,historical_source_dates,True,Latest historical source is d_1857; origin is d_1857.
+2,independent_historical_values,True,All 28 rows x 10 historical features match scalar calculations.
+2,target_alignment,True,Training targets end at the origin; forecast targets are the next 28 days.
+2,train_only_scaling,True,Means/stds use only usable supervised training rows.
+2,future_sales_invariance,True,Poisoning all forecast-window actual sales changes no model input.
+2,future_event_fit_isolation,True,Future event names cannot alter training vocabulary or scaling.
+2,finite_matrices,True,No missing/infinite input remains after historical warm-up.
+2,nested_feature_groups,True,All ablation groups share identical rows and retain three separate SNAP flags.
+3,historical_source_dates,True,Latest historical source is d_1885; origin is d_1885.
+3,independent_historical_values,True,All 28 rows x 10 historical features match scalar calculations.
+3,target_alignment,True,Training targets end at the origin; forecast targets are the next 28 days.
+3,train_only_scaling,True,Means/stds use only usable supervised training rows.
+3,future_sales_invariance,True,Poisoning all forecast-window actual sales changes no model input.
+3,future_event_fit_isolation,True,Future event names cannot alter training vocabulary or scaling.
+3,finite_matrices,True,No missing/infinite input remains after historical warm-up.
+3,nested_feature_groups,True,All ablation groups share identical rows and retain three separate SNAP flags.

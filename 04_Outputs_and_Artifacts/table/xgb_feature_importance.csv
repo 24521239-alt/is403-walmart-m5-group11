@@ -1,0 +1,110 @@
+feature_group,feature,display_name,objective,gain,split_count,total_gain,normalized_gain,selected_group
+lags,lag_28,lag_28,reg:pseudohubererror,2076.526123046875,131,272024.90625,0.5445661393548089,False
+lags,lag_35,lag_35,reg:pseudohubererror,636.6633911132812,112,71306.296875,0.16696410467419576,False
+lags,lag_42,lag_42,reg:pseudohubererror,234.68748474121094,93,21825.935546875,0.06154647230389158,False
+lags,lag_56,lag_56,reg:pseudohubererror,254.5216827392578,79,20107.212890625,0.0667479636365154,False
+lags,rolling_mean_7_shift_28,rolling_mean_7_shift_28,reg:pseudohubererror,143.62881469726562,123,17666.34375,0.0376664604657283,False
+lags,rolling_std_7_shift_28,rolling_std_7_shift_28,reg:pseudohubererror,77.94763946533203,95,7405.025390625,0.02044166197782921,False
+lags,rolling_mean_28_shift_28,rolling_mean_28_shift_28,reg:pseudohubererror,67.39138793945312,50,3369.569580078125,0.017673299434394732,False
+lags,rolling_std_28_shift_28,rolling_std_28_shift_28,reg:pseudohubererror,127.33634185791016,57,7258.17138671875,0.03339378171818017,False
+lags,rolling_mean_56_shift_28,rolling_mean_56_shift_28,reg:pseudohubererror,112.91171264648438,48,5419.76220703125,0.029610942410690556,False
+lags,rolling_std_56_shift_28,rolling_std_56_shift_28,reg:pseudohubererror,81.5606689453125,76,6198.61083984375,0.021389174023765393,False
+lags_calendar_events,lag_28,lag_28,reg:squarederror,1249.685302734375,158,197450.28125,0.3694684772117872,False
+lags_calendar_events,lag_35,lag_35,reg:squarederror,665.3259887695312,83,55222.05859375,0.19670310547963177,False
+lags_calendar_events,lag_42,lag_42,reg:squarederror,139.8143768310547,66,9227.7490234375,0.04133601058366983,False
+lags_calendar_events,lag_56,lag_56,reg:squarederror,194.31491088867188,70,13602.0439453125,0.057449050627781634,False
+lags_calendar_events,rolling_mean_7_shift_28,rolling_mean_7_shift_28,reg:squarederror,91.89202117919922,126,11578.39453125,0.02716780381325208,False
+lags_calendar_events,rolling_std_7_shift_28,rolling_std_7_shift_28,reg:squarederror,36.20884704589844,60,2172.53076171875,0.010705117160592999,False
+lags_calendar_events,rolling_mean_28_shift_28,rolling_mean_28_shift_28,reg:squarederror,43.21221160888672,61,2635.94482421875,0.012775656387376448,False
+lags_calendar_events,rolling_std_28_shift_28,rolling_std_28_shift_28,reg:squarederror,44.70435333251953,80,3576.34814453125,0.013216806914800046,False
+lags_calendar_events,rolling_mean_56_shift_28,rolling_mean_56_shift_28,reg:squarederror,29.808576583862305,81,2414.49462890625,0.008812882230584627,False
+lags_calendar_events,rolling_std_56_shift_28,rolling_std_56_shift_28,reg:squarederror,68.18704223632812,57,3886.66162109375,0.020159445426387337,False
+lags_calendar_events,weekday_2,weekday_2,reg:squarederror,25.134464263916016,17,427.285888671875,0.007430984598125652,False
+lags_calendar_events,weekday_3,weekday_3,reg:squarederror,29.35978126525879,23,675.2749633789062,0.0086801962474964,False
+lags_calendar_events,weekday_4,weekday_4,reg:squarederror,24.972793579101562,18,449.5102844238281,0.007383186787270803,False
+lags_calendar_events,weekday_5,weekday_5,reg:squarederror,34.12470626831055,15,511.8705749511719,0.010088942578315736,False
+lags_calendar_events,weekday_6,weekday_6,reg:squarederror,53.1241340637207,48,2549.95849609375,0.01570610846808499,False
+lags_calendar_events,weekday_7,weekday_7,reg:squarederror,54.70490264892578,45,2461.720703125,0.01617346145745122,False
+lags_calendar_events,month_sin,month_sin,reg:squarederror,83.25576782226562,59,4912.09033203125,0.024614502298366887,False
+lags_calendar_events,month_cos,month_cos,reg:squarederror,63.05404281616211,50,3152.7021484375,0.018641878183539774,False
+lags_calendar_events,event_00,Chanukah End,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_01,Christmas,reg:squarederror,233.36050415039062,73,17035.31640625,0.0689928495767434,False
+lags_calendar_events,event_02,Cinco De Mayo,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_03,ColumbusDay,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_04,Easter,reg:squarederror,30.003164291381836,18,540.0569458007812,0.00887041193332184,False
+lags_calendar_events,event_05,Eid al-Fitr,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_06,EidAlAdha,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_07,Father's day,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_08,Halloween,reg:squarederror,21.82712173461914,17,371.0610656738281,0.0064531713796750646,False
+lags_calendar_events,event_09,IndependenceDay,reg:squarederror,9.881340026855469,1,9.881340026855469,0.002921410409921553,False
+lags_calendar_events,event_10,LaborDay,reg:squarederror,36.69392395019531,34,1247.5933837890625,0.010848529765965752,False
+lags_calendar_events,event_11,LentStart,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_12,LentWeek2,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_13,MartinLutherKingDay,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_14,MemorialDay,reg:squarederror,15.201390266418457,14,212.8194580078125,0.00449427908045863,False
+lags_calendar_events,event_15,Mother's day,reg:squarederror,31.599191665649414,21,663.5830078125,0.009342276171677462,False
+lags_calendar_events,event_16,NBAFinalsEnd,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_17,NBAFinalsStart,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_18,NewYear,reg:squarederror,27.582263946533203,27,744.7211303710938,0.008154674649754834,False
+lags_calendar_events,event_19,OrthodoxChristmas,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_20,OrthodoxEaster,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_21,Pesach End,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_22,PresidentsDay,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_23,Purim End,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_24,Ramadan starts,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_25,StPatricksDay,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_26,SuperBowl,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events,event_27,Thanksgiving,reg:squarederror,33.00979232788086,20,660.1958618164062,0.009759319148407873,False
+lags_calendar_events,event_28,ValentinesDay,reg:squarederror,12.343890190124512,11,135.7827911376953,0.003649461429558166,False
+lags_calendar_events,event_29,VeteransDay,reg:squarederror,0.0,0,0.0,0.0,False
+lags_calendar_events_snap,lag_28,lag_28,reg:pseudohubererror,819.4309692382812,141,115539.765625,0.25424207321675774,True
+lags_calendar_events_snap,lag_35,lag_35,reg:pseudohubererror,363.4821472167969,82,29805.537109375,0.11277637550308973,True
+lags_calendar_events_snap,lag_42,lag_42,reg:pseudohubererror,360.3843994140625,85,30632.673828125,0.11181524777758779,True
+lags_calendar_events_snap,lag_56,lag_56,reg:pseudohubererror,301.3770446777344,60,18082.623046875,0.09350723555155942,True
+lags_calendar_events_snap,rolling_mean_7_shift_28,rolling_mean_7_shift_28,reg:pseudohubererror,118.1778793334961,40,4727.115234375,0.0366666506124824,True
+lags_calendar_events_snap,rolling_std_7_shift_28,rolling_std_7_shift_28,reg:pseudohubererror,34.13698959350586,62,2116.493408203125,0.010591568214342215,True
+lags_calendar_events_snap,rolling_mean_28_shift_28,rolling_mean_28_shift_28,reg:pseudohubererror,39.34477615356445,56,2203.307373046875,0.012207370523022898,True
+lags_calendar_events_snap,rolling_std_28_shift_28,rolling_std_28_shift_28,reg:pseudohubererror,48.68193054199219,75,3651.144775390625,0.015104377810733196,True
+lags_calendar_events_snap,rolling_mean_56_shift_28,rolling_mean_56_shift_28,reg:pseudohubererror,112.61677551269531,86,9685.04296875,0.034941225753219014,True
+lags_calendar_events_snap,rolling_std_56_shift_28,rolling_std_56_shift_28,reg:pseudohubererror,52.66515350341797,76,4002.5517578125,0.01634023891656724,True
+lags_calendar_events_snap,weekday_2,weekday_2,reg:pseudohubererror,17.620418548583984,13,229.0654296875,0.005467027621500982,True
+lags_calendar_events_snap,weekday_3,weekday_3,reg:pseudohubererror,24.717012405395508,19,469.62322998046875,0.007668863776912888,True
+lags_calendar_events_snap,weekday_4,weekday_4,reg:pseudohubererror,25.711164474487305,16,411.3786315917969,0.00797731597438546,True
+lags_calendar_events_snap,weekday_5,weekday_5,reg:pseudohubererror,27.12211799621582,11,298.3432922363281,0.008415087747778651,True
+lags_calendar_events_snap,weekday_6,weekday_6,reg:pseudohubererror,43.31977081298828,35,1516.1920166015625,0.013440678661445939,True
+lags_calendar_events_snap,weekday_7,weekday_7,reg:pseudohubererror,47.06385040283203,38,1788.42626953125,0.014602341562831377,True
+lags_calendar_events_snap,month_sin,month_sin,reg:pseudohubererror,54.169464111328125,78,4225.21826171875,0.016806976277095074,True
+lags_calendar_events_snap,month_cos,month_cos,reg:pseudohubererror,44.444705963134766,68,3022.239990234375,0.01378970848280296,True
+lags_calendar_events_snap,event_00,Chanukah End,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_01,Christmas,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_02,Cinco De Mayo,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_03,ColumbusDay,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_04,Easter,reg:pseudohubererror,31.102781295776367,16,497.6445007324219,0.009650154675989708,True
+lags_calendar_events_snap,event_05,Eid al-Fitr,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_06,EidAlAdha,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_07,Father's day,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_08,Halloween,reg:pseudohubererror,37.7538948059082,7,264.2772521972656,0.011713773152098563,True
+lags_calendar_events_snap,event_09,IndependenceDay,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_10,LaborDay,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_11,LentStart,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_12,LentWeek2,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_13,MartinLutherKingDay,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_14,MemorialDay,reg:pseudohubererror,24.24769401550293,15,363.7154235839844,0.00752324994862915,True
+lags_calendar_events_snap,event_15,Mother's day,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_16,NBAFinalsEnd,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_17,NBAFinalsStart,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_18,NewYear,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_19,OrthodoxChristmas,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_20,OrthodoxEaster,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_21,Pesach End,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_22,PresidentsDay,reg:pseudohubererror,10.897645950317383,2,21.795291900634766,0.0033811757226681343,True
+lags_calendar_events_snap,event_23,Purim End,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_24,Ramadan starts,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_25,StPatricksDay,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_26,SuperBowl,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_27,Thanksgiving,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,event_28,ValentinesDay,reg:pseudohubererror,14.79224681854248,9,133.13021850585938,0.004589540351612739,True
+lags_calendar_events_snap,event_29,VeteransDay,reg:pseudohubererror,0.0,0,0.0,0.0,True
+lags_calendar_events_snap,snap_CA,snap_CA,reg:pseudohubererror,165.68836975097656,31,5136.33935546875,0.05140756966087225,True
+lags_calendar_events_snap,snap_TX,snap_TX,reg:pseudohubererror,116.84913635253906,26,3038.07763671875,0.036254386025308255,True
+lags_calendar_events_snap,snap_WI,snap_WI,reg:pseudohubererror,287.23614501953125,23,6606.431640625,0.08911978647870622,True
