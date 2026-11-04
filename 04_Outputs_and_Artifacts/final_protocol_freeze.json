@@ -1,0 +1,270 @@
+{
+  "sha256": "25a4a27e2909fb7415a616405d6707ef66c64461db7bab9f688d772536c5b5c6",
+  "protocol": {
+    "protocol_version": 1,
+    "forecast_origin_day": 1913,
+    "horizon": 28,
+    "forecast_start": "2016-04-25",
+    "forecast_end": "2016-05-22",
+    "training_history": "Train+Validation, d_1 through d_1913",
+    "rmsse_scale": "mean squared first difference of the full 1913-day observed history",
+    "selected_before_test": "svr_07__lags_calendar_events_snap",
+    "plot_models_selected_before_test": [
+      "svr_07__lags_calendar_events_snap",
+      "xgb_lags_calendar_events_snap_trial_022",
+      "sarima_1_1_1_1_1_1_7_n__calendar_events_snap"
+    ],
+    "models": [
+      {
+        "model": "Naive",
+        "config_id": "naive",
+        "kind": "baseline",
+        "params": {
+          "model": "Naive",
+          "window": 0,
+          "season_length": 0
+        }
+      },
+      {
+        "model": "Seasonal Naive",
+        "config_id": "seasonal_naive_7",
+        "kind": "baseline",
+        "params": {
+          "model": "Seasonal Naive",
+          "window": 0,
+          "season_length": 7
+        }
+      },
+      {
+        "model": "Moving Average",
+        "config_id": "moving_average_7",
+        "kind": "baseline",
+        "params": {
+          "model": "Moving Average",
+          "window": 7,
+          "season_length": 0
+        }
+      },
+      {
+        "model": "Moving Average",
+        "config_id": "moving_average_28",
+        "kind": "baseline",
+        "params": {
+          "model": "Moving Average",
+          "window": 28,
+          "season_length": 0
+        }
+      },
+      {
+        "model": "ARIMA",
+        "config_id": "arima_7_1_2_t",
+        "kind": "statistical",
+        "params": {
+          "family": "ARIMA",
+          "config_id": "arima_7_1_2_t",
+          "p": 7,
+          "d": 1,
+          "q": 2,
+          "P": 0,
+          "D": 0,
+          "Q": 0,
+          "s": 0,
+          "trend": "t"
+        },
+        "feature_group": "history_only"
+      },
+      {
+        "model": "SARIMA",
+        "config_id": "sarima_1_1_1_1_1_1_7_n",
+        "kind": "statistical",
+        "params": {
+          "family": "SARIMA",
+          "config_id": "sarima_1_1_1_1_1_1_7_n",
+          "p": 1,
+          "d": 1,
+          "q": 1,
+          "P": 1,
+          "D": 1,
+          "Q": 1,
+          "s": 7,
+          "trend": "n"
+        },
+        "feature_group": "history_only"
+      },
+      {
+        "model": "ARIMAX",
+        "config_id": "arima_7_1_2_t__calendar_events_snap",
+        "kind": "statistical",
+        "params": {
+          "family": "ARIMA",
+          "config_id": "arima_7_1_2_t",
+          "p": 7,
+          "d": 1,
+          "q": 2,
+          "P": 0,
+          "D": 0,
+          "Q": 0,
+          "s": 0,
+          "trend": "t"
+        },
+        "feature_group": "calendar_events_snap"
+      },
+      {
+        "model": "SARIMAX",
+        "config_id": "sarima_1_1_1_1_1_1_7_n__calendar_events_snap",
+        "kind": "statistical",
+        "params": {
+          "family": "SARIMA",
+          "config_id": "sarima_1_1_1_1_1_1_7_n",
+          "p": 1,
+          "d": 1,
+          "q": 1,
+          "P": 1,
+          "D": 1,
+          "Q": 1,
+          "s": 7,
+          "trend": "n"
+        },
+        "feature_group": "calendar_events_snap"
+      },
+      {
+        "model": "SVR",
+        "config_id": "svr_07__lags_calendar_events_snap",
+        "kind": "tabular",
+        "params": {
+          "C": 10.0,
+          "epsilon": 0.05,
+          "gamma": 0.01
+        },
+        "feature_group": "lags_calendar_events_snap"
+      },
+      {
+        "model": "Random Forest",
+        "config_id": "rf_08__lags_calendar_events_snap",
+        "kind": "tabular",
+        "params": {
+          "max_depth": null,
+          "min_samples_leaf": 1,
+          "max_features": 0.7
+        },
+        "feature_group": "lags_calendar_events_snap"
+      },
+      {
+        "model": "XGBoost",
+        "config_id": "xgb_lags_calendar_events_snap_trial_022",
+        "kind": "xgboost",
+        "params": {
+          "colsample_bytree": 0.6539276136962279,
+          "gamma": 1.1265521513726753,
+          "huber_slope": 5.0,
+          "learning_rate": 0.07413580977580514,
+          "max_depth": 2,
+          "min_child_weight": 1.7987416673320433,
+          "objective": "reg:pseudohubererror",
+          "reg_alpha": 1.7552069629837823,
+          "reg_lambda": 0.9242356456770562,
+          "subsample": 0.7351521499999777
+        },
+        "tree_count": 402,
+        "feature_group": "lags_calendar_events_snap"
+      },
+      {
+        "model": "LSTM",
+        "config_id": "lstm_w28_h32_mse",
+        "kind": "lstm",
+        "params": {
+          "config_id": "lstm_w28_h32_mse",
+          "lookback": 28,
+          "hidden_size": 32,
+          "loss": "mse"
+        },
+        "seed": 42,
+        "epoch_rule": {
+          "optimizer": "Adam",
+          "learning_rate": 0.003,
+          "batch_size": 256,
+          "lr_step": 15,
+          "lr_gamma": 0.5,
+          "huber_delta": 0.05,
+          "max_epochs": 40,
+          "patience": 8,
+          "inner_monitor_days": 28,
+          "epoch_rule": "inner minimum RMSE, then fixed-epoch fit on full origin prefix",
+          "device": "cpu",
+          "threads": 2
+        }
+      }
+    ],
+    "primary_seed": 42,
+    "lstm_epoch_rule": "inner final 28 observed days select epoch, then reinitialize and refit on full history",
+    "labels_access_rule": "write and hash all 336 forecasts before loading Test total_sales",
+    "fixed_training_settings": {
+      "statistical": {
+        "target_divisor": 1000,
+        "optimizer": "lbfgs",
+        "max_iterations": [
+          200,
+          400
+        ],
+        "method": "statespace",
+        "cov_type": "opg",
+        "enforce_stationarity": true,
+        "enforce_invertibility": true
+      },
+      "SVR": {
+        "kernel": "rbf",
+        "max_iter": 1000000,
+        "tol": 0.001,
+        "feature_scaler": "StandardScaler",
+        "target_scaler": "StandardScaler"
+      },
+      "Random Forest": {
+        "n_estimators": 200,
+        "criterion": "squared_error",
+        "bootstrap": true,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "n_jobs": 1
+      },
+      "XGBoost": {
+        "tree_method": "hist",
+        "device": "cpu",
+        "n_jobs": 1,
+        "random_state": 42,
+        "target_divisor": 1000,
+        "base_score_rule": "usable training target mean in scaled units"
+      },
+      "LSTM": {
+        "architecture": {
+          "input_size": 1,
+          "num_layers": 2,
+          "hidden_size": 32,
+          "dropout": 0.2,
+          "head_outputs": 28
+        },
+        "training": {
+          "optimizer": "Adam",
+          "learning_rate": 0.003,
+          "batch_size": 256,
+          "lr_step": 15,
+          "lr_gamma": 0.5,
+          "huber_delta": 0.05,
+          "max_epochs": 40,
+          "patience": 8,
+          "inner_monitor_days": 28,
+          "epoch_rule": "inner minimum RMSE, then fixed-epoch fit on full origin prefix",
+          "device": "cpu",
+          "threads": 2
+        },
+        "seed": 42
+      }
+    },
+    "source_artifact_sha256": {
+      "tmp/arima_submitted_audit/04_Outputs_and_Artifacts/arima_selected_configurations.json": "5797feb363e751c3785068362ff37d13e768ccc9a7c5d5f60acb5c9cb77c99a8",
+      "tmp/arimax_submitted_audit/04_Outputs_and_Artifacts/exog_selected_configurations.json": "9250279df8a223acf5ed96d87a03c88f0a916b978524824f1d01ad77275a08fe",
+      "tmp/svr_rf_submitted_audit/04_Outputs_and_Artifacts/svr_rf_selected_configurations.json": "599f2670c86873c1d23e9d4b5610298c0880550d6f4f01b63bb5e71bf46bbc9b",
+      "tmp/xgboost_submitted_audit/04_Outputs_and_Artifacts/xgb_selected_configurations.json": "62eda920f01aa1670313cd4b6b67351e27dd06999fc7e6fa2cfb3aeba50ce621",
+      "tmp/lstm_submitted_audit/04_Outputs_and_Artifacts/lstm_selected_configuration.json": "f5d8f8dc4d965c77d169afde69814a7f1b9f59029fe616d703825f759a04e8bf"
+    }
+  }
+}
