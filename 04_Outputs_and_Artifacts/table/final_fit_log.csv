@@ -1,0 +1,13 @@
+model,config_id,history_rows,eligible,fit_seconds,warnings,error,clipped_forecasts,converged,attempts,aic,bic,parameter_count,clipped_count,clipped_fraction
+Naive,naive,1913,True,0.0006609959999934745,,,0,,,,,,,
+Seasonal Naive,seasonal_naive_7,1913,True,0.0006371679999972457,,,0,,,,,,,
+Moving Average,moving_average_7,1913,True,0.0007946910000100615,,,0,,,,,,,
+Moving Average,moving_average_28,1913,True,0.0007427630000051977,,,0,,,,,,,
+ARIMA,arima_7_1_2_t,1913,True,13.796398823000004,,,0,True,1.0,10326.152858970152,10387.267814999877,11.0,0.0,0.0
+SARIMA,sarima_1_1_1_1_1_1_7_n,1913,True,4.958117023999989,,,0,True,1.0,9871.528541388714,9899.289727826517,5.0,0.0,0.0
+ARIMAX,arima_7_1_2_t__calendar_events_snap,1913,True,31.915776998999974,,,0,True,1.0,8027.9614995505735,8316.868564418364,52.0,0.0,0.0
+SARIMAX,sarima_1_1_1_1_1_1_7_n__calendar_events_snap,1913,True,24.523746931999995,,,0,True,1.0,8054.418361380773,8276.507852883205,40.0,0.0,0.0
+SVR,svr_07__lags_calendar_events_snap,1913,True,0.42615777100002106,,,0,,,,,,,
+Random Forest,rf_08__lags_calendar_events_snap,1913,True,5.298000495999986,,,0,,,,,,,
+XGBoost,xgb_lags_calendar_events_snap_trial_022,1913,True,0.35806035299998484,,,0,,,,,,,
+LSTM,lstm_w28_h32_mse,1913,True,9.99546314700001,,,0,,,,,,,
