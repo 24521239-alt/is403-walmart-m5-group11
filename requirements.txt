@@ -1,0 +1,35 @@
+# ==============================================================================
+# Walmart M5 Retail Demand Forecasting (IS403 - Group 11)
+# Environment Specification for 1-Click Reproducibility
+# Compatible with Python >= 3.10, <= 3.12
+# ==============================================================================
+
+# Core Data Processing & Numerical Computing
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<2.3.0
+scipy>=1.10.0,<1.14.0
+
+# Paradigm 1: Classical Statistical Models (IS403 Baselines)
+statsmodels>=0.14.0
+pmdarima>=2.0.3
+
+# Paradigm 2: Tabular Machine Learning & Tree Ensembles
+scikit-learn>=1.3.0,<1.6.0
+lightgbm>=4.0.0,<4.5.0
+xgboost>=2.0.0,<2.2.0
+
+# Paradigm 3: Deep Neural Architectures (LSTM, GRU, N-HiTS)
+torch>=2.1.0,<2.5.0
+neuralforecast>=1.6.4
+
+# Hyperparameter Tuning & Model Checkpointing
+optuna>=3.4.0,<4.1.0
+joblib>=1.3.0
+
+# Explainable AI (XAI) & Interpretability
+shap>=0.44.0,<0.47.0
+
+# Visualization & Reporting Artifacts (IEEE Publication Standard)
+matplotlib>=3.7.0,<3.10.0
+seaborn>=0.12.0,<0.14.0
+openpyxl>=3.1.0
